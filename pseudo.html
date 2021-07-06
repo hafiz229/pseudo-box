@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1:hover {
+        color: white;
+        background-color: orange;
+        font-weight: 700;
+      }
+
+      .middle-person:focus {
+        color: blue;
+        font-weight: 700;
+      }
+
+      a:visited {
+        color: red;
+      }
+
+      li:first-child {
+        color: blue;
+      }
+
+      li:last-child {
+        background-color: lime;
+      }
+
+      li:nth-child(2n) {
+        color: crimson;
+      }
+
+      h3::before {
+        content: "Before Pseudo Element ";
+      }
+
+      h3::after {
+        content: " After Pseudo Element";
+        background-color: limegreen;
+        font-size: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>This is normal</h1>
+    <input type="text" />
+    <input class="middle-person" type="text" />
+    <input type="text" />
+    <br />
+    <a href="https://www.facebook.com">Go to Facebook</a>
+    <a href="https://www.youtube.com/">Go to YouTube</a>
+    <br />
+    <h3>middle size header - 1</h3>
+    <h3>middle size header - 2</h3>
+    <h3>middle size header - 3</h3>
+    <h3>middle size header - 4</h3>
+    <h3>middle size header - 5</h3>
+    <h3>middle size header - 6</h3>
+    <ul>
+      <li>MAC</li>
+      <li>Arif</li>
+      <li>Sakib</li>
+      <li>Raghib</li>
+      <li>Faisal</li>
+      <li>Billah</li>
+      <li>Toukir</li>
+    </ul>
+  </body>
+</html>
